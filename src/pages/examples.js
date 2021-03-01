@@ -15,7 +15,6 @@ const examples = ({ data }) => {
   return (
     <Layout>
       <div>
-        <h1>this is our examples page!</h1>
         <p>hello from examples</p>
         <Header />
         <HeaderStatic />
