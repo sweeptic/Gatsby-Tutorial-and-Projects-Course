@@ -6,6 +6,16 @@
 
 module.exports = {
   /* Your site config here */
+
+  siteMetadata: {
+    title: "Gatsby Tutorial",
+    description: "some random description",
+    author: "@johndoe",
+    data: ["item 1", "item 2"],
+    person: { name: "peter", age: 32 },
+  },
+  // data: ["item 1", "item 2"],
+
   plugins: [
     {
       resolve: `gatsby-plugin-styled-components`,
