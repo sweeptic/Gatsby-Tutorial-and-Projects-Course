@@ -4,7 +4,7 @@ import React from "react"
 const getData = graphql`
   {
     site {
-      siteMetadata {
+      info: siteMetadata {
         title
         author
         data
@@ -21,7 +21,7 @@ const getData = graphql`
 const Header = () => {
   const {
     site: {
-      siteMetadata: {
+      info: {
         title,
         person: { name },
       },
@@ -30,8 +30,8 @@ const Header = () => {
 
   return (
     <div>
-      {/* <h1>title: {data.site.siteMetadata.title}</h1>
-      <h1>name: {data.site.siteMetadata.person.name}</h1> */}
+      {/* <h1>title: {data.site.info.title}</h1>
+      <h1>name: {data.site.info.person.name}</h1> */}
       <h1>title: {title}</h1>
       <h1>name: {name}</h1>
     </div>
