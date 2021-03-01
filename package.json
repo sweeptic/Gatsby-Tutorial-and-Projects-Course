@@ -20,7 +20,6 @@
     "gatsby-source-filesystem": "^2.11.1",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
-    "@hot-loader/react-dom": "^16.8.6",
     "styled-components": "^5.2.1"
   },
   "devDependencies": {
