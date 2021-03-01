@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <Layout>
       <hr />
-      <h1>Hello world!</h1>
+      <h1 style={{ color: "red", textTransform: "uppercase" }}>Hello world!</h1>
       <hr />
     </Layout>
   )
