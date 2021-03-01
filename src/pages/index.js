@@ -1,6 +1,6 @@
 import React from "react"
-import { ExampleButton } from "../component/button"
-import Layout from "../component/layout"
+import { ExampleButton } from "../components/button"
+import Layout from "../components/layout"
 
 export default function Home() {
   return (

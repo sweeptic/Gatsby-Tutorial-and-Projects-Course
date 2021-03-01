@@ -1,6 +1,6 @@
 import React from "react"
-import Layout from "../component/layout"
-import styles from "../component/blog.module.css"
+import Layout from "../components/layout"
+import styles from "../components/blog.module.css"
 
 const blog = () => {
   return (
