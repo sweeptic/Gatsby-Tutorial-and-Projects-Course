@@ -3,6 +3,7 @@ import Footer from "./Footer"
 import Navbar from "./Navbar"
 import "./layout.css"
 
+// this is HOC
 const layout = ({ children }) => {
   return (
     <>

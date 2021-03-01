@@ -1,0 +1,11 @@
+.page {
+  background-color: rgba(210, 105, 30, 0.623);
+}
+
+.page h1 {
+  color: crimson;
+}
+
+.text {
+  text-transform: uppercase;
+}
