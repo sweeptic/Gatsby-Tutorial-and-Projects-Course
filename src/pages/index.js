@@ -1,12 +1,13 @@
 import React from "react"
-import Layout from "../component/layout"
+import { ExampleButton } from "../components/button"
+import Layout from "../components/layout"
 
 export default function Home() {
   return (
     <Layout>
-      <hr />
-      <h1 style={{ color: "red", textTransform: "uppercase" }}>Hello world!</h1>
-      <hr />
+      {/* inline style */}
+      <h1>Hello world!</h1>
+      <ExampleButton>click me</ExampleButton>
     </Layout>
   )
 }
