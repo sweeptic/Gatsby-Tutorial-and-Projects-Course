@@ -1,5 +1,5 @@
 import React from "react"
-import img from "../images/images04.jpeg"
+import img from "../images/images03.jpg"
 import Image from "gatsby-image"
 import { useSiteData } from "./fix"
 
@@ -20,6 +20,10 @@ const Images = () => {
       <article className="single-image">
         <h3>fluid image/svg</h3>
         <Image fluid={data.fluid.childImageSharp.fluid} />
+      </article>
+      <article className="single-image">
+        <h3>fluid image/svg</h3>
+        <Image fluid={data.fluid2.childImageSharp.fluid} />
       </article>
     </section>
   )
