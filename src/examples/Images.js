@@ -21,9 +21,10 @@ const Images = () => {
         <h3>fluid image/svg</h3>
         <Image fluid={data.fluid.childImageSharp.fluid} />
       </article>
+
       <article className="single-image">
         <h3>fluid image/svg</h3>
-        <Image fluid={data.fluid2.childImageSharp.fluid} />
+        <Image fluid={data.example.childImageSharp.fluid} />
       </article>
     </section>
   )

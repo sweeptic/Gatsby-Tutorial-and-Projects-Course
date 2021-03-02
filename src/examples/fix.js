@@ -17,7 +17,7 @@ export const useSiteData = () => {
           }
         }
       }
-      fluid2: file(relativePath: { eq: "images01.jpeg" }) {
+      example: file(relativePath: { eq: "images05.jpg" }) {
         childImageSharp {
           fluid {
             ...GatsbyImageSharpFluid_tracedSVG
