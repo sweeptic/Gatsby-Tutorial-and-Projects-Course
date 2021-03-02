@@ -11,7 +11,7 @@ const ComponentName = ({ data }) => {
 
   return (
     <Layout>
-      <section className="={style.page}">
+      <section className={styles.page}>
         {products.map(product => {
           return (
             <article key={product.id}>
