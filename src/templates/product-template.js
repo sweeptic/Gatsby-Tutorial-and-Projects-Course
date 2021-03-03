@@ -17,7 +17,7 @@ const ComponentName = ({
     <Layout>
       <div style={{ textAlign: "center" }}>
         <Link to="/products">back to products</Link>
-        <h1>single product</h1>
+        <h1>single product: {title}</h1>
       </div>
       <section className="single-product">
         <article>
@@ -34,6 +34,8 @@ const ComponentName = ({
   )
 }
 
+//page query
+//fetch specific data about that product
 export const query = graphql`
   query GetSingleProduct($slug: String) {
     product: contentfulProduct(slug: { eq: $slug }) {
